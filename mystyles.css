@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 img{
     cursor: pointer;
 }
@@ -29,6 +33,12 @@ nav{
 
 .nav-left img{
     width: 160px;
+}
+
+.nav-left .menu-icon{
+    width: 35px;
+    height: 25px;
+    margin-right: 20px;
 }
 
 .nav-middle{
@@ -78,5 +88,48 @@ nav{
 }
 
 .nav-right .profile{
+    border-radius: 50%;
+}
+
+.sidebar{
+    background: #fff;
+    position: fixed;
+    margin-top: 10px;
+    width: 15%;
+    height: 100vh;
+}
+
+.sidebar .shortcut-links a, .sidebar .subscribed-list a{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    margin: 0 auto;
+}
+
+.sidebar .shortcut-links img, .sidebar .subscribed-list img{
+    width: 25px;
+    margin-left: 25px;
+}
+
+.sidebar .shortcut-links p, .sidebar .subscribed-list p{
+    margin-left: 20px;
+    color: #5a5a5a;
+}
+
+.sidebar .shortcut-links hr{
+    margin-top: 10px;
+    width: 150px;
+    margin-left: 25px;
+}
+
+.sidebar .subscribed-list h3{
+    font-size: 13px;
+    color: #5a5a5a;
+    margin: 15px 0 10px 25px;
+}
+
+.sidebar .subscribed-list img{
+    width: 35px;
     border-radius: 50%;
 }
