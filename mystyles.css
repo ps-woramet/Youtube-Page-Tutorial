@@ -1,0 +1,82 @@
+*{
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    cursor: pointer;
+}
+
+.div-flex{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    justify-content: space-between;
+    height: 80px;
+    background:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-left{
+    margin-left: 35px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.nav-left img{
+    width: 160px;
+}
+
+.nav-middle{
+    margin-left: 20px;
+    width: 450px;
+    height: 50px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+.nav-middle .search-box{
+    border: gray solid 1px;
+    border-radius: 25px;
+    padding: 3px 3px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.nav-middle .search-box input{
+    width: 260px;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding-left: 10px;
+}
+
+.nav-middle .search-box img{
+    padding-right: 10px;
+    padding: 5px auto;
+}
+
+.nav-middle .voice{
+    margin-left: 10px;
+    padding: 5px;
+    width: 28px;
+}
+
+.nav-right{
+    margin-right: 35px;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.nav-right img{
+    width: 32px;
+}
+
+.nav-right .profile{
+    border-radius: 50%;
+}
